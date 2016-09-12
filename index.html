@@ -18,6 +18,16 @@ exponea.initialize({
         //, customer: window.loggedInCustomer // replace window.loggedInCustomer with id of your web site customer, e.g. "john.smith@gmail.com"
 });
 </script>
+<script>
+$(document).on("click",".next",function(){
+	exponea.track("next",{
+		location: window.location
+	})
+})
+</script>
+<script>
+
+</script>
 </head>
 <body style="width: 900px; margin: 100px auto; height: auto;">
 <div id="gallery">
@@ -25,6 +35,7 @@ exponea.initialize({
     <a href="images/large/2.jpg"><img src="images/thumbs/2.jpg" alt="Photo 2" /></a>
     <a href="images/large/3.jpg"><img src="images/thumbs/3.jpg" alt="Photo 3" /></a>
 	<a href="images/large/4.jpg"><img src="images/thumbs/4.jpg" alt="Photo 3" /></a>
+	<a href="images/large/5.jpg"><img src="images/thumbs/5.jpg" alt="Photo 3" /></a>
 </div>
 <script type="text/javascript">
 $( function() {
