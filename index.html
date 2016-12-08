@@ -5,6 +5,7 @@
     <title>Portfolio | Martina Kolibasova</title>
     <link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/jgallery.min.css?v=1.5.0" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/csko.css" />
     <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="js/jgallery.min.js?v=1.5.0"></script>
     <script type="text/javascript" src="js/touchswipe.min.js"></script>
@@ -16,23 +17,22 @@ exponea.initialize({
         //, customer: window.loggedInCustomer // replace window.loggedInCustomer with id of your web site customer, e.g. "john.smith@gmail.com"
 });
 </script>
-<script>
-exponea.initialize({
-        "token": "ca3cae60-78e3-11e6-a133-141877340e97",
-	"track": {
-		"visits": true
-}	
-        //, customer: window.loggedInCustomer // replace window.loggedInCustomer with id of your web site customer, e.g. "john.smith@gmail.com"
-});
-</script>
-<script>
-$(document).on("click",".next",function(){
-	exponea.track("next",{
-		location: window.location
-	})
-})
-</script>
-<script>
+    <script>
+        exponea.initialize({
+            "token": "ca3cae60-78e3-11e6-a133-141877340e97",
+            "track": {
+                "visits": true
+            }
+            //, customer: window.loggedInCustomer // replace window.loggedInCustomer with id of your web site customer, e.g. "john.smith@gmail.com"
+        });
+
+        $(document).on("click", ".next", function () {
+            exponea.track("next", {
+                location: window.location
+            })
+        })
+    </script>
+    <script>
 $(document).on("click",".prev",function(){
 	exponea.track("prev",{
 		location: window.location
@@ -56,9 +56,6 @@ $(document).on("click",".loaded active",function(){
 	<a href="images/large/5.jpg"><img src="images/thumbs/5.jpg" alt="Photo 5" /></a>
 	<a href="images/large/6.jpg"><img src="images/thumbs/6.jpg" alt="Photo 6" /></a>
 	<a href="images/large/8.jpg"><img src="images/thumbs/8.jpg" alt="Photo 8" /></a>
-	
-	
-	
 </div>
 <script type="text/javascript">
 $( function() {
