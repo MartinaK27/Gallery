@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f9e1a6-4978-4d15-8a81-d2c0a84bc630" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,14 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="462">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1481275784774" expanded="true" signature="818:903" ph="..." />
+                <marker date="1481279042123" expanded="true" signature="848:933" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csko.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gallery/css/csko.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,8 +49,8 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="103" column="86" lean-forward="false" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="86" />
+            <state relative-caret-position="506">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -111,8 +122,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/csko.css" />
-        <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/Gallery/css/csko.css" />
       </list>
     </option>
   </component>
@@ -307,12 +319,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481207066943</updated>
       <workItem from="1481207070763" duration="1663000" />
-      <workItem from="1481220169817" duration="3038000" />
+      <workItem from="1481220169817" duration="5013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4701000" />
+    <option name="totallyTimeSpent" value="6676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -352,7 +364,7 @@
         <state relative-caret-position="1122">
           <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="63" />
           <folding>
-            <marker date="1481275784774" expanded="true" signature="818:903" ph="..." />
+            <marker date="1481279042123" expanded="true" signature="848:933" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,19 +435,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="103" column="86" lean-forward="false" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="86" />
+        <state relative-caret-position="506">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1481275784774" expanded="true" signature="818:903" ph="..." />
+            <marker date="1481279042123" expanded="true" signature="848:933" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gallery/css/csko.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
